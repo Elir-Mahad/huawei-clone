@@ -439,3 +439,9 @@ li {
 .rowtwo .laptop {
   width: 70%;
 }
+
+/* mate40 styles below */
+
+.mate40 .banner {
+  width: 100%;
+}
