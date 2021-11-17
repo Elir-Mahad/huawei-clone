@@ -1,3 +1,5 @@
+/* General css styles for configuration */
+
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
@@ -226,6 +228,44 @@ html {
   font-size: 62.5%;
   font-family: "Roboto", sans-serif;
 }
+
+/* Below are the general styles- linking different fonts to their elements */
+
+body,
+ul,
+h1,
+h2,
+h3,
+p,
+a,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: "Roboto", sans-serif;
+}
+
+body,
+button {
+  font-family: "Noto Sans", sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+li {
+  font-size: 1.3rem;
+}
+
+/* Specific styles for the different sections */
 
 /* Black menu */
 
