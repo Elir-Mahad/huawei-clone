@@ -575,3 +575,85 @@ li {
   text-align: center;
   width: 170px;
 }
+
+/* Penultimate styles below */
+
+.penultimate {
+  background-color: #f2f2f2;
+  color: #6a6868;
+}
+
+/* Penultimate - top row */
+
+.toprow {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid darkgrey;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.toprow .searchicon {
+  width: 3rem;
+}
+
+/* Penultimate - middle row */
+
+.middlerow {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid darkgrey;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.allcolumns {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.allcolumns span {
+  color: black;
+}
+
+.columnone {
+  display: flex;
+}
+
+.columnone2ndlist {
+  margin-left: 3rem;
+  margin-top: 3.5rem;
+}
+
+.middlerow li {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  line-height: 20px;
+}
+
+.middlerow ul {
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+/* Penultimate - last row */
+
+.lastrow {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.lastrow .words {
+  display: flex;
+}
+
+.lastrow .words p {
+  margin-right: 3rem;
+}
+
+.lastrow .social_logo {
+  width: 3rem;
+  margin-left: 2rem;
+}
