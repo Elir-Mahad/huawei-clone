@@ -657,3 +657,28 @@ li {
   width: 3rem;
   margin-left: 2rem;
 }
+
+/* Footer styles below */
+
+.footerbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6e6e6;
+  color: #606060;
+  padding: 2rem;
+}
+
+.footer_copyright {
+  padding: 1rem;
+}
+
+.footer_list ul {
+  display: flex;
+  list-style: none;
+}
+
+.footer_list ul li {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
